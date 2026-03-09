@@ -5,6 +5,8 @@ import io
 import json
 from dotenv import load_dotenv
 from openai import OpenAI
+from pydantic import BaseModel
+from typing import List
 
 # Wczytanie zmiennych środowiskowych z pliku .env
 load_dotenv()
@@ -59,8 +61,19 @@ try:
     # Wymaga zmiennej OPENAI_API_KEY w podłączonym środowisku lub .env
     openai_client = OpenAI()
 
-    def get_job_tags(job_description):
-        prompt = f"""Przeanalizuj poniższy opis stanowiska i przypisz go do jednej lub wielu z podanych kategorii:
+    class JobTags(BaseModel):
+        person_id: int
+        tags: List[str]
+
+    class BatchJobTagsResponse(BaseModel):
+        results: List[JobTags]
+
+    print(f"Znaleziono {len(filtered_people)} kandydatów. Rozpoczynam kategoryzację (Batch Tagging) przez OpenAI...")
+    
+    # Przygotowanie danych do batcha
+    jobs_text = "\n".join([f"ID: {i} | Opis: {p['job']}" for i, p in enumerate(filtered_people)])
+    
+    prompt = f"""Przeanalizuj poniższe opisy stanowisk (oznaczone ID) i przypisz każdy do jednej lub wielu z podanych kategorii:
 - IT (szeroko pojęta informatyka)
 - transport
 - edukacja
@@ -69,38 +82,31 @@ try:
 - praca z pojazdami
 - praca fizyczna
 
-Zwróć wynik JAKO LISTĘ W FORMACIE JSON (tylko poprawne ciągi znaków z nazwami kategorii). Zwróć same kategorie z podanej listy (dokładnie z taką składnią, jaka jest zdefiniowana w punktach). Nie dodawaj żadnego dodatkowego tekstu ani formatowania Markdown.
+Zwróć wynik jako ustrukturyzowany JSON. Każdemu 'person_id' przypisz listę 'tags' zawierającą poprawne kategorie z powyższej listy.
 
-Opis: {job_description}"""
-        
-        response = openai_client.chat.completions.create(
-            model="gpt-5-mini",
-            messages=[
-                {"role": "user", "content": prompt}
-            ]
-            #temperature=0.1
-        )
-        content = response.choices[0].message.content.strip()
-        try:
-            return json.loads(content)
-        except json.JSONDecodeError:
-            # W przypadku błędu formatowania, próbuj jakoś odzyskać listę
-            return [cat for cat in [
-                "IT (szeroko pojęta informatyka)", "transport", "edukacja", 
-                "medycyna", "praca z ludźmi", "praca z pojazdami", "praca fizyczna"
-            ] if cat.lower() in content.lower()]
+Lista stanowisk:
+{jobs_text}"""
+
+    response = openai_client.beta.chat.completions.parse(
+        model="gpt-5-mini",
+        messages=[
+            {"role": "user", "content": prompt}
+        ],
+        response_format=BatchJobTagsResponse
+    )
+    
+    batch_results = response.choices[0].message.parsed
+    tags_map = {res.person_id: res.tags for res in batch_results.results}
 
     answer_list = []
-    print(f"Znaleziono {len(filtered_people)} kandydatów. Rozpoczynam kategoryzację przez OpenAI...")
     
     for i, person in enumerate(filtered_people):
-        print(f"[{i+1}/{len(filtered_people)}] Kategoryzacja dla: {person['name']} {person['surname']} (zawód: {person['job'][:30]}...)")
         try:
             born_year = int(person['birthDate'].split('-')[0])
         except (ValueError, KeyError):
             born_year = None
             
-        tags = get_job_tags(person['job'])
+        tags = tags_map.get(i, [])
         
         if "transport" not in tags:
             continue
@@ -133,4 +139,4 @@ except requests.exceptions.RequestException as e:
     print(f"Wystąpił błąd podczas pobierania danych: {e}")
 except Exception as e:
     print(f"Błąd przetwarzania: {e}")
-    
+
