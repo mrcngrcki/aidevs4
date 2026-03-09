@@ -133,3 +133,4 @@ except requests.exceptions.RequestException as e:
     print(f"Wystąpił błąd podczas pobierania danych: {e}")
 except Exception as e:
     print(f"Błąd przetwarzania: {e}")
+    
