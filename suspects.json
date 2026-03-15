@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Cezary",
+        "surname": "Żurek",
+        "born": 1987
+    },
+    {
+        "name": "Jacek",
+        "surname": "Nowak",
+        "born": 1991
+    },
+    {
+        "name": "Oskar",
+        "surname": "Sieradzki",
+        "born": 1993
+    },
+    {
+        "name": "Wojciech",
+        "surname": "Bielik",
+        "born": 1986
+    },
+    {
+        "name": "Wacław",
+        "surname": "Jasiński",
+        "born": 1986
+    }
+]

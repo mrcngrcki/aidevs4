@@ -2,6 +2,7 @@ import os
 import requests
 import csv
 import io
+import json
 from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel
@@ -125,6 +126,9 @@ Lista stanowisk:
         "task": "people",
         "answer": answer_list
     }
+    
+    with open('answer_list.json', 'w', encoding='utf-8') as f:
+        json.dump(answer_list, f, ensure_ascii=False, indent=4)
     
     print(f"Wysyłanie danych do {HUB_URL}/verify...")
     verify_response = requests.post(
