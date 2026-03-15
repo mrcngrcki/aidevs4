@@ -2,7 +2,6 @@ import os
 import requests
 import csv
 import io
-import json
 from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel
@@ -25,7 +24,8 @@ if not api_key:
     exit(1)
 
 # Budowanie URL
-url = f"https://hub.ag3nts.org/data/{api_key}/people.csv"
+HUB_URL = os.getenv("HUB_URL")
+url = f"{HUB_URL}/data/{api_key}/people.csv"
 
 # Wysłanie requestu GET
 try:
@@ -126,9 +126,9 @@ Lista stanowisk:
         "answer": answer_list
     }
     
-    print("Wysyłanie danych do https://hub.ag3nts.org/verify...")
+    print(f"Wysyłanie danych do {HUB_URL}/verify...")
     verify_response = requests.post(
-        "https://hub.ag3nts.org/verify",
+        f"{HUB_URL}/verify",
         json=output_data
     )
     
