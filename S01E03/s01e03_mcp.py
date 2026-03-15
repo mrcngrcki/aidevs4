@@ -10,12 +10,13 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 HUB_API_KEY = os.getenv("HUB_API_KEY")
+HUB_URL = os.getenv("HUB_URL")
 
 if not HUB_API_KEY:
     logger.error("Missing HUB_API_KEY")
     exit(1)
 
-HUB_API_URL = "https://hub.ag3nts.org/api/packages"
+HUB_API_URL = f"{HUB_URL}/api/packages"
 
 # Initialize FastMCP server
 mcp = FastMCP("Packages Provider")
