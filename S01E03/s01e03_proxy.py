@@ -72,7 +72,7 @@ async def lifespan(app: FastAPI):
     global mcp_session, mcp_tools, openai_tools
     logger.info("Starting FastAPI server and connecting to MCP Tools server")
     
-    server_script = os.path.join(os.path.dirname(__file__), "s01e03_mcp.py")
+    server_script = os.path.join(os.path.dirname(os.path.dirname(__file__)), "shared", "mcp_server.py")
     server_params = StdioServerParameters(
         command=sys.executable,
         args=[server_script],
