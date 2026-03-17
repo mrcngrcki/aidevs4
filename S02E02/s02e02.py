@@ -145,7 +145,6 @@ UWAGA! Należy użyć Function Calling do wywołania narzędzi (Tools)!
                         "tool_call_id": tool_call.id,
                         "content": tool_result
                     })
-                    input('kolejny krok?')
             else:
                 agent_reply = message.content or ""
                 messages.append({"role": "assistant", "content": agent_reply})
