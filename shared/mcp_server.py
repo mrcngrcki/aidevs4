@@ -183,6 +183,35 @@ async def evaluate_classifier_prompt(prompt_template: str) -> str:
             return json.dumps({"error": str(e)})
 
 
+@mcp.tool()
+async def rotate(row: int, column: int) -> str:
+    """Rotates a tile on the electricity grid by 90 degrees clockwise.
+    The parameters are row and column (1-indexed based on the visual layout)."""
+    async with httpx.AsyncClient() as http_client:
+        position = f"{row}x{column}"
+        payload = {
+            "apikey": HUB_API_KEY,
+            "task": "electricity",
+            "answer": {
+                "rotate": position
+            }
+        }
+        try:
+            logger.info(f"Sending rotate command for tile {position} (task: electricity)")
+            response = await http_client.post(f"{HUB_URL}/verify", json=payload, timeout=10.0)
+            response.raise_for_status()
+            res_json = response.json()
+            return json.dumps(res_json)
+        except httpx.HTTPStatusError as e:
+            try:
+                err_json = e.response.json()
+                return f"API Error on rotation of {position}: {json.dumps(err_json)}"
+            except Exception:
+                return f"HTTP Error on rotation of {position}: {e}"
+        except Exception as e:
+            logger.error(f"Error executing rotation: {e}")
+            return json.dumps({"error": str(e)})
+
 if __name__ == "__main__":
     # Start the server using stdio
     mcp.run(transport='stdio')
