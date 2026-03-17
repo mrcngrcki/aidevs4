@@ -4,7 +4,8 @@ import logging
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from mcp.server.fastmcp import FastMCP
-
+import csv
+import json
 # Setup basic logging to stderr so it doesn't pollute stdout (which MCP uses)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -106,6 +107,80 @@ async def read_file(url: str) -> str:
         except Exception as e:
             logger.error(f"Error reading file: {e}")
             return f"Error reading file: {str(e)}"
+
+@mcp.tool()
+async def evaluate_classifier_prompt(prompt_template: str) -> str:
+    """Evaluates the given classifier prompt_template against the central hub using 10 CSV items.
+    Replaces {description} in the template with actual item descriptions from the CSV."""
+    
+    async with httpx.AsyncClient() as http_client:
+        try:
+            # 1. Wysyłanie POST na /verify celem wbudowanego resetowania
+            reset_payload = {"apikey": HUB_API_KEY, "task": "categorize", "answer": {"prompt": "reset"}}
+            logger.info("Resetting categorization task in hub...")
+            reset_res = await http_client.post(f"{HUB_URL}/verify", json=reset_payload, timeout=10.0)
+            logger.info(f"Reset returned: {reset_res.text[:200]}")
+            
+            # Pobranie aktualnego CSV
+            csv_url = f"{HUB_URL}/data/{HUB_API_KEY}/categorize.csv"
+            logger.info(f"Downloading CSV from: {csv_url}")
+            csv_res = await http_client.get(csv_url, timeout=15.0)
+            csv_res.raise_for_status()
+            
+            # Parsowanie CSV
+            decoded_content = csv_res.text.splitlines()
+            reader = csv.reader(decoded_content)
+            
+            items = []
+            for row in reader:
+                if len(row) >= 2 and row[0].lower() != 'code':
+                    items.append({"code": row[0], "description": row[1]})
+            
+            logger.info(f"Got {len(items)} items from CSV. Going to evaluate the first 10...")
+            
+            items_to_eval = items[:10]
+            
+            # W pętli dla maks 10 towarów
+            for i, item in enumerate(items_to_eval):
+                final_prompt = prompt_template.replace("{description}", item['description']).replace("{id}", item['code'])
+                
+                payload = {
+                    "apikey": HUB_API_KEY,
+                    "task": "categorize",
+                    "answer": {
+                        "prompt": final_prompt
+                    }
+                }
+                
+                logger.info(f"Item #{i+1} [{item['code']}] - payload: {payload}")
+                
+                try:
+                    verify_res = await http_client.post(f"{HUB_URL}/verify", json=payload, timeout=20.0)
+                    verify_res.raise_for_status()
+                    res_json = verify_res.json()
+                except httpx.HTTPStatusError as e:
+                    try:
+                        err_json = e.response.json()
+                        return f"Błąd API na przedmiocie {item['code']} ({item['description']}): {json.dumps(err_json)}"
+                    except Exception:
+                        return f"Błąd HTTP na przedmiocie {item['code']}: {e}"
+                except Exception as e:
+                    return f"Błąd na przedmiocie {item['code']}: {e}"
+                
+                logger.info(f"Response for {item['code']}: {res_json}")
+                
+                if res_json.get("code") != 0 and res_json.get("code") != 1:
+                    return f"Błędna walidacja na przedmiocie {item['code']} ({item['description']}). Kod: {res_json.get('code')}, Wiadomość: {res_json.get('message')}"
+                
+                # Jeśli w odpowiedzi dostaniemy flagę
+                if "FLG:" in str(res_json.get("message", "")) or "FLG:" in str(res_json):
+                    return f"WYGRANA! Zdobyliśmy flagę: {res_json}"
+                    
+            return f"Pętla zakończona sukcesem (10/10) dla promptu: {prompt_template}. Sprawdź logi (być może flaga jest w res_json ostatniego elementu)."
+            
+        except Exception as e:
+            logger.error(f"Error evaluating prompt: {e}")
+            return json.dumps({"error": str(e)})
 
 
 if __name__ == "__main__":
