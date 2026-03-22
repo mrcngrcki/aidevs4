@@ -1,0 +1,890 @@
+[2026-03-21 06:02:28] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 06:03:20] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 06:04:13] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 06:04:39] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 06:05:32] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 06:05:58] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 06:10:48] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 06:11:40] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 06:14:18] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 06:16:56] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 06:30:05] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 06:30:58] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 06:32:17] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 06:35:21] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 06:36:40] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 06:37:06] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 06:37:33] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 06:38:52] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 06:40:10] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 06:41:03] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 06:44:07] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 06:49:23] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 06:50:16] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 06:50:42] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 06:52:01] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 06:52:54] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 06:55:58] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 06:58:09] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 06:59:28] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 07:02:59] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 07:05:37] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 07:06:03] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 07:09:07] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 07:12:38] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 07:16:34] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 07:18:46] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 07:22:43] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 07:24:02] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 07:24:28] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 07:27:32] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 07:27:59] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 07:30:36] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 07:31:03] [WARN] FIRMWARE reports a trend outside preferred startup envelope. Monitoring intensity has been increased.
+[2026-03-21 07:37:11] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 07:38:30] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 07:40:15] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 07:42:27] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 07:46:24] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 07:49:54] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 07:50:20] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 07:57:22] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 07:57:48] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 08:00:26] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 08:01:45] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 08:04:23] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 08:05:15] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 08:06:34] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 08:09:12] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 08:09:38] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 08:14:28] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 08:17:06] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 08:18:25] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 08:19:17] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 08:28:30] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 08:28:56] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 08:29:49] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 08:31:34] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 08:34:38] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 08:36:23] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 08:36:50] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 08:42:32] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 08:45:10] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 08:46:02] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 08:46:55] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 08:48:14] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 08:53:03] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 08:53:30] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 08:58:19] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 08:59:12] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 09:06:13] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 09:07:05] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 09:11:55] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 09:14:06] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 09:16:18] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 09:17:10] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 09:20:15] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 09:25:04] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 09:25:30] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 09:37:21] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 09:38:40] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 09:39:32] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 09:41:18] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 09:44:48] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 09:45:41] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 09:46:33] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 09:52:15] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 09:53:08] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 09:54:27] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 09:56:12] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 09:56:39] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 09:57:58] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 09:58:24] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 10:01:28] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 10:03:40] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 10:04:32] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 10:06:44] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 10:09:22] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 10:11:07] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 10:12:26] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 10:15:56] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 10:17:42] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 10:22:31] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 10:22:57] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 10:23:24] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 10:24:43] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 10:25:09] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 10:27:47] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 10:29:32] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 10:32:10] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 10:35:40] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 10:36:59] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 10:38:45] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 10:39:11] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 10:42:41] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 10:45:19] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 10:47:05] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 10:56:17] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 10:56:43] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 11:01:33] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 11:01:59] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 11:05:03] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 11:05:30] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 11:07:41] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 11:09:00] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 11:09:53] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 11:11:38] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 11:12:04] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 11:16:54] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 11:20:51] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 11:21:43] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 11:26:59] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 11:27:25] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 11:29:11] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 11:30:03] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 11:31:22] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 11:33:07] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 11:34:53] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 11:36:12] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 11:36:38] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 11:38:23] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 11:40:08] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 11:42:20] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 11:44:58] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 11:45:50] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 11:48:02] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 11:50:40] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 11:51:32] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 11:54:10] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 11:55:56] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 11:59:52] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 12:00:19] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 12:01:11] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 12:03:49] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 12:05:08] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 12:05:35] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 12:06:27] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 12:07:20] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 12:07:46] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 12:09:58] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 12:10:24] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 12:10:50] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 12:11:17] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 12:15:13] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 12:20:03] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 12:21:48] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 12:24:00] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 12:25:45] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 12:34:57] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 12:35:24] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 12:36:16] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 12:36:43] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 12:38:02] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 12:38:54] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 12:39:47] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 12:41:06] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 12:41:32] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 12:41:58] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 12:45:03] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 12:46:48] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 12:47:14] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 12:47:41] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 12:48:33] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 12:48:59] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 12:49:26] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 12:49:52] [WARN] Advisory threshold crossed on WTANK07. Control loop continues with reduced tolerance.
+[2026-03-21 12:51:11] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 12:51:37] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 12:52:30] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 12:52:56] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 12:54:15] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 12:55:34] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 12:56:00] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 12:56:27] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 12:57:46] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 12:59:05] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 12:59:31] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 12:59:57] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 13:00:50] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 13:01:16] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 13:02:09] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 13:04:20] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 13:04:47] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 13:05:13] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 13:07:51] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 13:09:10] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 13:10:02] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 13:12:14] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 13:12:40] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 13:13:59] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 13:15:18] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 13:15:45] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 13:17:30] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 13:18:22] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 13:18:49] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 13:19:41] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 13:20:34] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 13:21:53] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 13:22:46] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 13:24:04] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 13:24:31] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 13:24:57] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 13:25:50] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 13:27:09] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 13:28:01] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 13:28:54] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 13:29:20] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 13:31:05] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 13:32:24] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 13:33:43] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 13:35:02] [ERRO] Cross-check between FIRMWARE and hardware interface map did not complete successfully. Compatibility verification remains unresolved for startup state.
+[2026-03-21 13:35:29] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 13:37:40] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 13:38:59] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 13:39:25] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 13:40:18] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 13:44:41] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 13:46:00] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 13:46:26] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 13:46:53] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 13:47:19] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 13:48:12] [WARN] Power stability on PWR01 is highly unstable under startup load. Adding an additional power source is strongly recommended.
+[2026-03-21 13:49:31] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 13:50:23] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 13:51:16] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 13:52:35] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 13:54:20] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 13:55:13] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 13:57:24] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 13:58:17] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 13:58:43] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 13:59:10] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 14:00:02] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 14:01:21] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 14:04:52] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 14:05:18] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 14:07:03] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:07:56] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 14:08:48] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:12:19] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 14:12:45] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:17:08] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:18:27] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 14:18:54] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 14:19:20] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 14:20:13] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 14:21:31] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:21:58] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:23:17] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 14:24:09] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 14:25:28] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 14:25:55] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 14:28:06] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 14:28:32] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 14:28:59] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 14:30:44] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 14:32:29] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:33:22] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 14:34:15] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 14:36:00] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 14:37:19] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 14:38:11] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 14:38:38] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:39:04] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 14:39:57] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 14:40:49] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 14:41:16] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:42:34] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:43:27] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 14:43:53] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 14:45:12] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:46:31] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 14:47:24] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 14:48:17] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:49:35] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 14:50:54] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 14:51:47] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 14:52:13] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 14:52:40] [CRIT] Safety bootstrap read missing environment marker SAFETY_CHECK=pass. FIRMWARE continues in restricted validation mode.
+[2026-03-21 14:53:59] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 14:55:18] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 14:56:36] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 14:57:03] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 14:57:55] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 14:58:48] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 14:59:41] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 15:00:07] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 15:04:56] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 15:06:15] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:07:34] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 15:08:01] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 15:08:27] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:08:53] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:09:46] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:10:12] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:11:31] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 15:11:57] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 15:12:50] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:13:16] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 15:13:43] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 15:14:09] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 15:15:02] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 15:15:28] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 15:15:54] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 15:16:47] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 15:18:06] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 15:19:51] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 15:20:44] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 15:21:10] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:21:36] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 15:22:03] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 15:22:29] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 15:23:22] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 15:23:48] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:24:40] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 15:25:33] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 15:27:18] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 15:27:45] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 15:28:11] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 15:30:23] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 15:30:49] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 15:33:00] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 15:33:27] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 15:33:53] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 15:34:19] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 15:35:12] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 15:36:05] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 15:36:57] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:37:24] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 15:37:50] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 15:38:42] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 15:40:01] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 15:40:28] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 15:41:47] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 15:42:13] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:43:32] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 15:43:58] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 15:44:51] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 15:47:02] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 15:47:29] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:47:55] [WARN] WSTPOOL2 shows moderate parameter drift during initialization. Automatic correction remains active.
+[2026-03-21 15:51:26] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:52:18] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 15:54:56] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 15:55:22] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 15:55:49] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 15:56:41] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 15:57:08] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 15:58:00] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 15:58:53] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 15:59:19] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 16:01:04] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 16:03:16] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 16:03:42] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 16:04:09] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 16:05:28] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 16:06:20] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 16:06:47] [CRIT] WSTPOOL2 entered critical protection state during startup. Immediate shutdown safeguards remain active.
+[2026-03-21 16:07:13] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 16:07:39] [WARN] Preventive warning issued for WTRPMP due to unstable short-term readings. Escalation rules are armed.
+[2026-03-21 16:08:32] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 16:09:51] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:10:17] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 16:11:36] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 16:12:55] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 16:13:48] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 16:14:40] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 16:15:06] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 16:15:59] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 16:16:52] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:17:44] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 16:18:11] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 16:19:03] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 16:20:22] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:20:49] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 16:22:07] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 16:22:34] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 16:23:26] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:23:53] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 16:24:19] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 16:25:12] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 16:25:38] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 16:26:31] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 16:30:27] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 16:32:13] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 16:33:05] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:34:51] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 16:37:28] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 16:39:40] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:40:33] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 16:41:25] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 16:41:52] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 16:42:18] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 16:42:44] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 16:43:10] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 16:44:03] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 16:44:56] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 16:45:48] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:48:26] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 16:48:53] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 16:50:11] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 16:50:38] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 16:51:30] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 16:55:01] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 16:56:46] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 16:57:39] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 16:59:24] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 17:00:17] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 17:01:09] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 17:01:36] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 17:02:02] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 17:03:21] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 17:03:47] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 17:04:40] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 17:05:06] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 17:05:32] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 17:05:59] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:06:25] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 17:06:51] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 17:07:18] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 17:08:10] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 17:08:37] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 17:09:29] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 17:09:56] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:10:22] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 17:10:48] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 17:11:14] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 17:12:07] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 17:12:33] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 17:13:26] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 17:13:52] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 17:14:45] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 17:16:57] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 17:17:23] [ERRO] PWR01 failed a recovery step in the active sequence. The subsystem remains in degraded operation mode.
+[2026-03-21 17:17:49] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 17:18:15] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 17:19:08] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 17:20:01] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 17:20:27] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 17:20:53] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 17:21:20] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 17:21:46] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 17:22:12] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 17:22:39] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 17:23:58] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 17:24:50] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 17:26:09] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 17:27:54] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 17:28:47] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:29:13] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 17:29:40] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 17:30:32] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 17:31:25] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 17:31:51] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:32:17] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 17:32:44] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:33:36] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 17:34:03] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 17:34:29] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 17:34:55] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:35:22] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:35:48] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 17:36:14] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 17:36:41] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 17:38:00] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 17:38:26] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:38:52] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 17:39:18] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:39:45] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 17:40:11] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 17:40:37] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 17:41:56] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 17:42:49] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:43:15] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 17:43:42] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 17:44:08] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 17:44:34] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:45:01] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 17:45:27] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 17:45:53] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:46:46] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:47:12] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 17:47:38] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:48:31] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:50:43] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 17:51:35] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 17:52:02] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 17:52:28] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 17:52:54] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 17:53:21] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 17:53:47] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 17:56:25] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 17:56:51] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 17:57:17] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 17:57:44] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 17:58:10] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 17:58:36] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 17:59:03] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 17:59:29] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 17:59:55] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 18:00:22] [WARN] WTANK07 reports a trend outside preferred startup envelope. Monitoring intensity has been increased.
+[2026-03-21 18:00:48] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 18:01:14] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 18:02:07] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 18:02:33] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 18:03:26] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 18:04:18] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 18:04:45] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 18:05:11] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 18:06:04] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:06:30] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 18:07:23] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 18:07:49] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 18:08:15] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:08:41] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 18:09:34] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:10:27] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:10:53] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 18:11:19] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:12:12] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:12:38] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 18:13:05] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 18:13:31] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:13:57] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 18:14:50] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:15:16] [WARN] Advisory threshold crossed on WTANK07. Control loop continues with reduced tolerance.
+[2026-03-21 18:15:42] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 18:17:01] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 18:17:28] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 18:17:54] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 18:18:20] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 18:18:47] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:19:13] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 18:20:06] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:20:32] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 18:20:58] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 18:21:25] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 18:21:51] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:22:17] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 18:22:43] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 18:23:10] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 18:23:36] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 18:24:29] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 18:24:55] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 18:25:21] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 18:25:48] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:26:40] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 18:27:07] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:27:33] [ERRO] Operational fault persisted on ECCS8 after retry cycle. Performance constraints are now enforced.
+[2026-03-21 18:29:18] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:29:44] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 18:30:11] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:30:37] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 18:31:03] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 18:31:56] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:32:22] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 18:34:34] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:35:00] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 18:35:27] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:35:53] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 18:36:19] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:36:45] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 18:37:38] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 18:38:04] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 18:38:31] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 18:40:42] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 18:42:28] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 18:42:54] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 18:43:20] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 18:44:13] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 18:45:05] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 18:45:32] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:46:24] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 18:46:51] [WARN] ECCS8 shows moderate parameter drift during initialization. Automatic correction remains active.
+[2026-03-21 18:47:17] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 18:48:36] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 18:49:29] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 18:49:55] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 18:50:47] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 18:52:59] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 18:53:52] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 18:54:18] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 18:54:44] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 18:55:11] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 18:56:03] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 18:56:56] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 18:57:48] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 18:59:07] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 18:59:34] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 19:00:26] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 19:00:53] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 19:01:19] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 19:01:45] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 19:02:12] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 19:02:38] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:03:57] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 19:05:16] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:05:42] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 19:06:08] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 19:06:35] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:07:01] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 19:07:27] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 19:07:54] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 19:08:46] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:09:13] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 19:11:24] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 19:11:50] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 19:13:09] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:13:36] [WARN] Preventive warning issued for WTANK07 due to unstable short-term readings. Escalation rules are armed.
+[2026-03-21 19:14:28] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 19:14:55] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 19:15:21] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 19:16:14] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 19:16:40] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 19:17:33] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 19:18:51] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:19:18] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 19:19:44] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 19:20:10] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 19:20:37] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 19:21:29] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:21:56] [ERRO] ECCS8 returned inconsistent feedback under load. Automatic fallback path has been applied.
+[2026-03-21 19:23:15] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 19:23:41] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 19:24:07] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 19:24:34] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 19:25:52] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:26:19] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 19:27:11] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 19:27:38] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 19:28:04] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 19:29:49] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:30:16] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:30:42] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 19:31:08] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 19:32:01] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 19:32:53] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:33:20] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:33:46] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 19:34:12] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:34:39] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 19:35:31] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 19:36:24] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:36:50] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 19:37:43] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 19:38:09] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 19:38:36] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 19:39:02] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 19:39:28] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 19:40:47] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 19:41:13] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:41:40] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 19:42:06] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:42:32] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 19:43:25] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 19:44:18] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:46:56] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 19:47:22] [ERRO] Control response from WTANK07 exceeded error budget. Further recovery attempts are limited.
+[2026-03-21 19:47:48] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:48:41] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:49:07] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 19:50:00] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 19:50:26] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 19:50:52] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 19:51:45] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 19:52:11] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 19:52:38] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 19:53:04] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 19:53:30] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 19:53:57] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 19:54:23] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 19:54:49] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 19:55:15] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 19:55:42] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 19:56:08] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 19:56:34] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 19:57:27] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 19:58:20] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 19:58:46] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 19:59:12] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 19:59:39] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 20:00:05] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:00:31] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 20:00:58] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 20:01:24] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 20:01:50] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:02:16] [ERRO] WTANK07 failed a recovery step in the active sequence. The subsystem remains in degraded operation mode.
+[2026-03-21 20:02:43] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:03:35] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 20:04:02] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:04:28] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 20:04:54] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:05:21] [CRIT] Critical boundary exceeded on ECCS8. Emergency interlock keeps the reactor in protected mode.
+[2026-03-21 20:05:47] [ERRO] WTANK07 indicates unstable refill trend. Available coolant inventory is no longer guaranteed.
+[2026-03-21 20:06:13] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 20:06:40] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 20:07:06] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:07:32] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 20:07:59] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 20:08:25] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:08:51] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 20:09:17] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:09:44] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:10:10] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 20:10:36] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:11:03] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 20:11:29] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:11:55] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:12:22] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 20:13:14] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 20:13:41] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 20:14:07] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:14:33] [ERRO] Operational fault persisted on WTANK07 after retry cycle. Performance constraints are now enforced.
+[2026-03-21 20:15:26] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:15:52] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 20:16:45] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 20:17:11] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:18:04] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 20:18:30] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:19:23] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:19:49] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 20:20:15] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 20:21:08] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 20:21:34] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:22:01] [ERRO] Cooling efficiency on ECCS8 dropped below operational target. Compensating commands did not recover nominal state.
+[2026-03-21 20:22:27] [CRIT] ECCS8 core cooling cannot maintain safe gradient. Immediate protective actions are required.
+[2026-03-21 20:23:19] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:23:46] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 20:24:12] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:24:38] [WARN] Level sensor reconciliation for WTANK07 returned minor mismatch. Secondary read is requested.
+[2026-03-21 20:25:05] [ERRO] WTRPMP suction profile is inconsistent with expected coolant volume. Mechanical stress is increasing.
+[2026-03-21 20:25:31] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 20:25:57] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 20:27:16] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 20:27:43] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:28:09] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:28:35] [WARN] Flow margin on WTRPMP is below preferred startup profile. Monitoring continues without immediate trip.
+[2026-03-21 20:29:02] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 20:29:28] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:29:54] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 20:30:47] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:31:13] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:31:39] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 20:32:06] [CRIT] Coolant inventory in WTANK07 is below critical threshold for full-loop operation. ECCS8 cannot guarantee reactor heat removal and automatic shutdown is mandatory.
+[2026-03-21 20:32:32] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 20:32:58] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:33:25] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 20:33:51] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 20:34:17] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:34:44] [ERRO] WTANK07 returned inconsistent feedback under load. Automatic fallback path has been applied.
+[2026-03-21 20:35:10] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 20:35:36] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:36:03] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:37:21] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:37:48] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:38:14] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:38:40] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 20:39:07] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:39:33] [CRIT] PWR01 can no longer sustain stable feed for cooling auxiliaries. Critical loads are shedding.
+[2026-03-21 20:40:26] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 20:40:52] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 20:41:18] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:41:45] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 20:42:11] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:42:37] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:43:04] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 20:43:56] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:44:22] [ERRO] Control response from WTANK07 exceeded error budget. Further recovery attempts are limited.
+[2026-03-21 20:44:49] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:45:15] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:45:41] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 20:46:08] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:46:34] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:47:00] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 20:47:27] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 20:47:53] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:48:19] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 20:48:46] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 20:49:12] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 20:50:05] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 20:50:31] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:50:57] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 20:51:50] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 20:52:16] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 20:52:42] [ERRO] PWR01 transient disturbed auxiliary pump control. Recovery completed with degraded margin.
+[2026-03-21 20:53:09] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 20:54:01] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 20:56:13] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 20:57:06] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:57:32] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 20:57:58] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 20:58:24] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 20:59:17] [CRIT] Insufficient cooling capacity confirmed after incomplete WTANK07 refill. Reactor protection system executes final shutdown sequence.
+[2026-03-21 20:59:43] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:00:10] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 21:00:36] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 21:01:02] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 21:01:29] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 21:01:55] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:02:21] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 21:02:48] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 21:03:14] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 21:03:40] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:04:33] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 21:05:25] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.
+[2026-03-21 21:05:52] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 21:06:18] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:06:44] [WARN] ECCS8 reports rising return temperature. Cooling headroom is decreasing.
+[2026-03-21 21:07:11] [WARN] Thermal drift on ECCS8 exceeds advisory threshold. Corrective ramp is queued.
+[2026-03-21 21:07:37] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 21:08:03] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 21:08:30] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 21:08:56] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.
+[2026-03-21 21:09:22] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 21:09:49] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 21:10:15] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:10:41] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 21:11:08] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 21:11:34] [ERRO] ECCS8 failed a recovery step in the active sequence. The subsystem remains in degraded operation mode.
+[2026-03-21 21:12:00] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:12:26] [WARN] Input ripple on PWR01 crossed warning limits. Stability window is narrowed.
+[2026-03-21 21:12:53] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 21:13:19] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:13:45] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 21:14:12] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 21:15:57] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 21:16:50] [CRIT] WSTPOOL2 absorption path reached emergency boundary. Heat rejection is no longer sufficient.
+[2026-03-21 21:17:16] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:17:42] [ERRO] Operational fault persisted on WTANK07 after retry cycle. Performance constraints are now enforced.
+[2026-03-21 21:18:09] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-03-21 21:18:35] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:19:27] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 21:20:20] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:20:46] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 21:22:05] [WARN] Waste heat relay to WSTPOOL2 is approaching soft cap. Throughput tuning is required.
+[2026-03-21 21:22:58] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 21:23:24] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:23:51] [ERRO] WTANK07 returned inconsistent feedback under load. Automatic fallback path has been applied.
+[2026-03-21 21:24:43] [CRIT] WTRPMP lost stable prime under peak thermal demand. Core loop continuity is compromised.
+[2026-03-21 21:25:10] [ERRO] STMTURB12 feedback loop exceeded correction budget. Thermal conversion rate is reduced.
+[2026-03-21 21:25:36] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.
+[2026-03-21 21:26:28] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.
+[2026-03-21 21:26:55] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 21:27:21] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:27:47] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.
+[2026-03-21 21:28:14] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:29:06] [ERRO] ECCS8 fails to recover thermal margin while WTANK07 remains partially filled. Shutdown criteria are approaching.
+[2026-03-21 21:29:59] [ERRO] Heat transfer path to WSTPOOL2 is saturated. Dissipation lag continues to accumulate.
+[2026-03-21 21:30:25] [ERRO] ECCS8 return circuit temperature rose faster than prediction. Emergency bias remains armed.
+[2026-03-21 21:31:18] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.
+[2026-03-21 21:31:44] [WARN] Pressure jitter near STMTURB12 is above baseline. Automatic damping remains engaged.
+[2026-03-21 21:32:37] [ERRO] WTANK07 level estimate dropped near minimum reserve line. Automatic refill request timed out.
+[2026-03-21 21:33:03] [WARN] WTRPMP duty cycle is elevated for current load. Extended operation may reduce efficiency.
+[2026-03-21 21:33:29] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip.
+[2026-03-21 21:33:56] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:34:48] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:35:15] [WARN] Fill trajectory in WTANK07 is slower than expected. Cooling reserve may become constrained.
+[2026-03-21 21:35:41] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 21:36:07] [ERRO] Coolant level in WTANK07 is below critical reserve for sustained operation. Protective shutdown path is being enforced.
+[2026-03-21 21:36:34] [WARN] Cooling reserve trend in WTANK07 keeps falling during load rise. ECCS8 is approaching a nonrecoverable limit.
+[2026-03-21 21:37:00] [CRIT] Final trip complete because WTANK07 remained under critical water level. FIRMWARE confirms safe shutdown state with all core operations halted.

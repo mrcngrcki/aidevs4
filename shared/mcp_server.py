@@ -21,7 +21,8 @@ if not HUB_API_KEY:
     logger.error("Missing HUB_API_KEY")
     exit(1)
 
-HUB_API_URL = f"{HUB_URL}/api/packages"
+# HUB_API_URL = f"{HUB_URL}/api/packages"
+HUB_API_URL = f"{HUB_URL}/verify"
 
 # Initialize FastMCP server
 mcp = FastMCP("Packages Provider")
@@ -107,6 +108,38 @@ async def read_file(url: str) -> str:
         except Exception as e:
             logger.error(f"Error reading file: {e}")
             return f"Error reading file: {str(e)}"
+
+@mcp.tool()
+async def send_logs_to_api(logs_content: str) -> str:
+    """Sends the processed logs to the verification API for task S02E03."""
+    logger.info(f"Sending {len(logs_content)} chars to API mock...")
+    payload = {
+        "apikey": HUB_API_KEY,
+        "task": "failure",
+        "answer": {
+            "logs": logs_content
+        }
+    }
+    res = await call_external_api(payload)
+    import json
+    return json.dumps(res)
+
+@mcp.tool()
+async def read_local_file(file_path: str) -> str:
+    """Reads a text file from the local file system and returns its content."""
+    try:
+        logger.info(f"Reading local file: {file_path}")
+        if not os.path.exists(file_path):
+            return f"Error: File {file_path} does not exist."
+            
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+            
+        logger.info(f"Local file {file_path} read successfully, length: {len(content)}")
+        return content
+    except Exception as e:
+        logger.error(f"Error reading local file: {e}")
+        return f"Error reading local file: {str(e)}"
 
 @mcp.tool()
 async def evaluate_classifier_prompt(prompt_template: str) -> str:
