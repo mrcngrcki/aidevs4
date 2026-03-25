@@ -1,0 +1,55 @@
+--- REACTOR AGENT LOG: 2026-03-25 21:26:25.941363 ---
+
+--- [Krok 1] ---
+> Polecenie: start
+< Status: {"code": 100, "message": "Reactor board initialized.", "board": [[".", ".", "B", "B", ".", ".", "."], [".", "B", "B", "B", ".", ".", "."], [".", "B", ".", ".", ".", ".", "."], [".", ".", ".", ".", "B", "B", "."], ["P", ".", ".", ".", "B", "B", "G"]], "player": {"col": 1, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 3, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 4, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 5, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 6, "top_row": 4, "bottom_row": 5, "direction": "up"}], "reached_goal": false}
+
+--- [Krok 2] ---
+> Polecenie: right
+< Status: {"code": 100, "message": "Player moved right.", "board": [[".", ".", ".", ".", ".", ".", "."], [".", ".", "B", "B", ".", ".", "."], [".", "B", "B", "B", "B", "B", "."], [".", "B", ".", ".", "B", "B", "."], [".", "P", ".", ".", ".", ".", "G"]], "player": {"col": 2, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 3, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 4, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 5, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 6, "top_row": 3, "bottom_row": 4, "direction": "up"}], "reached_goal": false}
+
+--- [Krok 3] ---
+> Polecenie: left
+< Status: {"code": 100, "message": "Player moved left.", "board": [[".", ".", ".", ".", ".", ".", "."], [".", ".", ".", ".", "B", "B", "."], [".", ".", "B", "B", "B", "B", "."], [".", "B", "B", "B", ".", ".", "."], ["P", "B", ".", ".", ".", ".", "G"]], "player": {"col": 1, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 3, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 4, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 5, "top_row": 2, "bottom_row": 3, "direction": "up"}, {"col": 6, "top_row": 2, "bottom_row": 3, "direction": "up"}], "reached_goal": false}
+
+--- [Krok 4] ---
+> Polecenie: wait
+< Status: {"code": 100, "message": "Player waited.", "board": [[".", ".", ".", ".", "B", "B", "."], [".", ".", ".", ".", "B", "B", "."], [".", "B", ".", ".", ".", ".", "."], [".", "B", "B", "B", ".", ".", "."], ["P", ".", "B", "B", ".", ".", "G"]], "player": {"col": 1, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 3, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 4, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 5, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 6, "top_row": 1, "bottom_row": 2, "direction": "down"}], "reached_goal": false}
+
+--- [Krok 5] ---
+> Polecenie: right
+< Status: {"code": 100, "message": "Player moved right.", "board": [[".", ".", ".", ".", ".", ".", "."], [".", "B", ".", ".", "B", "B", "."], [".", "B", "B", "B", "B", "B", "."], [".", ".", "B", "B", ".", ".", "."], [".", "P", ".", ".", ".", ".", "G"]], "player": {"col": 2, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 2, "bottom_row": 3, "direction": "up"}, {"col": 3, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 4, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 5, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 6, "top_row": 2, "bottom_row": 3, "direction": "down"}], "reached_goal": false}
+
+--- [Krok 6] ---
+> Polecenie: right
+< Status: {"code": 100, "message": "Player moved right.", "board": [[".", "B", ".", ".", ".", ".", "."], [".", "B", "B", "B", ".", ".", "."], [".", ".", "B", "B", "B", "B", "."], [".", ".", ".", ".", "B", "B", "."], [".", ".", "P", ".", ".", ".", "G"]], "player": {"col": 3, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 3, "top_row": 2, "bottom_row": 3, "direction": "up"}, {"col": 4, "top_row": 2, "bottom_row": 3, "direction": "up"}, {"col": 5, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 6, "top_row": 3, "bottom_row": 4, "direction": "down"}], "reached_goal": false}
+
+--- [Krok 7] ---
+> Polecenie: right
+< Status: {"code": 100, "message": "Player moved right.", "board": [[".", ".", "B", "B", ".", ".", "."], [".", "B", "B", "B", ".", ".", "."], [".", "B", ".", ".", ".", ".", "."], [".", ".", ".", ".", "B", "B", "."], [".", ".", ".", "P", "B", "B", "G"]], "player": {"col": 4, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 3, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 4, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 5, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 6, "top_row": 4, "bottom_row": 5, "direction": "up"}], "reached_goal": false}
+
+--- [Krok 8] ---
+> Polecenie: wait
+< Status: {"code": 100, "message": "Player waited.", "board": [[".", ".", ".", ".", ".", ".", "."], [".", ".", "B", "B", ".", ".", "."], [".", "B", "B", "B", "B", "B", "."], [".", "B", ".", ".", "B", "B", "."], [".", ".", ".", "P", ".", ".", "G"]], "player": {"col": 4, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 3, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 4, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 5, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 6, "top_row": 3, "bottom_row": 4, "direction": "up"}], "reached_goal": false}
+
+--- [Krok 9] ---
+> Polecenie: right
+< Status: {"code": 100, "message": "Player moved right.", "board": [[".", ".", ".", ".", ".", ".", "."], [".", ".", ".", ".", "B", "B", "."], [".", ".", "B", "B", "B", "B", "."], [".", "B", "B", "B", ".", ".", "."], [".", "B", ".", ".", "P", ".", "G"]], "player": {"col": 5, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 3, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 4, "top_row": 3, "bottom_row": 4, "direction": "down"}, {"col": 5, "top_row": 2, "bottom_row": 3, "direction": "up"}, {"col": 6, "top_row": 2, "bottom_row": 3, "direction": "up"}], "reached_goal": false}
+
+--- [Krok 10] ---
+> Polecenie: wait
+< Status: {"code": 100, "message": "Player waited.", "board": [[".", ".", ".", ".", "B", "B", "."], [".", ".", ".", ".", "B", "B", "."], [".", "B", ".", ".", ".", ".", "."], [".", "B", "B", "B", ".", ".", "."], [".", ".", "B", "B", "P", ".", "G"]], "player": {"col": 5, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 3, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 4, "top_row": 4, "bottom_row": 5, "direction": "up"}, {"col": 5, "top_row": 1, "bottom_row": 2, "direction": "down"}, {"col": 6, "top_row": 1, "bottom_row": 2, "direction": "down"}], "reached_goal": false}
+
+--- [Krok 11] ---
+> Polecenie: right
+< Status: {"code": 100, "message": "Player moved right.", "board": [[".", ".", ".", ".", ".", ".", "."], [".", "B", ".", ".", "B", "B", "."], [".", "B", "B", "B", "B", "B", "."], [".", ".", "B", "B", ".", ".", "."], [".", ".", ".", ".", ".", "P", "G"]], "player": {"col": 6, "row": 5}, "goal": {"col": 7, "row": 5}, "blocks": [{"col": 2, "top_row": 2, "bottom_row": 3, "direction": "up"}, {"col": 3, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 4, "top_row": 3, "bottom_row": 4, "direction": "up"}, {"col": 5, "top_row": 2, "bottom_row": 3, "direction": "down"}, {"col": 6, "top_row": 2, "bottom_row": 3, "direction": "down"}], "reached_goal": false}
+
+--- [Krok 12] ---
+> Polecenie: right
+< Status: {"code": 0, "message": "{FLG:INSTALLED}"}
+
+--- [Krok 13] ---
+Agent: Wystartowałem i sterowałem robotem zgodnie ze strategią — przeglądając mapę po każdym kroku i wykonując ruchy (right/left/wait). Ostatnie polecenie (right) zwróciło komunikat:
+{FLG:INSTALLED}
+
+To oznacza, że zadanie zakończone — robot dotarł do punktu docelowego (kolumna 7, wiersz 5) i flaga została zainstalowana. Chcesz zresetować planszę i spróbować ponownie (wyślę 'reset') czy zakończyć?
