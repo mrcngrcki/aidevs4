@@ -1,0 +1,52 @@
+--- DOMATOWO AGENT LOG: 2026-04-03 14:46:40.271489 ---
+
+--- [Step 1] ---
+> Call: send_action({"answer": {"action": "help"}})
+< Result: {"code": 65, "message": "Domatowo API help.", "usage": {"endpoint": "/verify", "method": "POST", "required_fields": ["apikey", "task", "answer"], "task": "domatowo"}, "actions": [{"action": "help", "description": "Returns API usage and action reference.", "params": []}, {"action": "reset", "description": "Resets board state, queue and action points to defaults, then rolls partisan position again.", "params": []}, {"action": "create", "description": "Creates a new transporter or scout unit on the next free spawn slot (A6 -> D6).", "params": {"type": "transporter|scout", "passengers": "1-4 (required only for transporter)"}}, {"action": "move", "description": "Queues movement of a unit to target field with calculated path (road-only for transporter, shortest orthogonal for scout).", "params": {"object": "hash", "where": "A1..K11"}}, {"action": "inspect", "description": "Performs scout reconnaissance and appends a log entry based on current scout field.", "params": {"object": "hash (scout)"}}, {"action": "dismount", "description": "Removes selected number of scouts from transporter and spawns them on free tiles around vehicle.", "params": {"object": "hash (transporter)", "passengers": "1-4"}}, {"action": "getObjects", "description": "Returns all currently known units with type, position and identifier.", "params": []}, {"action": "getMap", "description": "Returns clean map layout; optional symbols filter keeps only selected symbols/fields.", "params": {"symbols": "[optional] array of 2-char symbols or coordinates (e.g. KS, SZ, B3, C4)"}}, {"action": "searchSymbol", "description": "Searches clean map for all fields matching the provided 2-character symbol.", "params": {"symbol": "exactly 2 alphanumeric characters"}}, {"action": "getLogs", "description": "Returns collected inspect log entries.", "params": []}, {"action": "expenses", "description": "Returns action points spending history (action name and action cost).", "params": []}, {"action": "actionCost", "description": "Returns action points cost rules for all operations.", "params": []}, {"action": "callHelicopter", "description": "Calls evacuation helicopter to selected destination, but only after any scout confirms a human.", "params": {"destination": "A1..K11"}}]}
+--- [Step 2] ---
+> Call: send_action({"answer":{"action":"getMap"}})
+< Result: {"code": 80, "message": "Map loaded.", "map": {"name": "Domatowo", "size": 11, "tiles": {"road": {"label": "Ulica", "symbol": "UL"}, "tree": {"label": "Drzewa", "symbol": "DR"}, "house": {"label": "Dom", "symbol": "DM"}, "empty": {"label": "Pusta przestrzen", "symbol": "  "}, "block1": {"label": "Blok 1p", "symbol": "B1"}, "block2": {"label": "Blok 2p", "symbol": "B2"}, "block3": {"label": "Blok 3p", "symbol": "B3"}, "church": {"label": "Kosciol", "symbol": "KS"}, "school": {"label": "Szkola", "symbol": "SZ"}, "parking": {"label": "Parking", "symbol": "PK"}, "field": {"label": "Boisko", "symbol": "BS"}}, "grid": [["tree", "road", "road", "road", "empty", "block3", "block3", "tree", "empty", "parking", "parking"], ["tree", "tree", "empty", "road", "road", "block3", "block3", "tree", "road", "parking", "parking"], ["empty", "empty", "empty", "road", "parking", "empty", "empty", "tree", "road", "empty", "empty"], ["block1", "block1", "empty", "road", "parking", "school", "school", "school", "road", "field", "field"], ["block1", "block1", "empty", "road", "parking", "school", "school", "school", "road", "field", "field"], ["road", "road", "road", "road", "road", "road", "road", "road", "road", "road", "empty"], ["block2", "block2", "empty", "road", "empty", "church", "church", "church", "empty", "tree", "empty"], ["block2", "block2", "empty", "road", "empty", "church", "church", "church", "empty", "tree", "empty"], ["empty", "road", "road", "road", "road", "road", "road", "road", "road", "road", "empty"], ["block3", "block3", "block3", "empty", "tree", "empty", "empty", "block3", "block3", "tree", "empty"], ["block3", "block3", "block3", "empty", "tree", "empty", "empty", "block3", "block3", "tree", "empty"]]}}
+--- [Step 3] ---
+> Call: send_action({"answer":{"action":"searchSymbol","symbol":"B3"}})
+< Result: {"code": 90, "message": "Symbol search completed.", "symbol": "B3", "found": [{"symbol": "B3", "position": "F1"}, {"symbol": "B3", "position": "G1"}, {"symbol": "B3", "position": "F2"}, {"symbol": "B3", "position": "G2"}, {"symbol": "B3", "position": "A10"}, {"symbol": "B3", "position": "B10"}, {"symbol": "B3", "position": "C10"}, {"symbol": "B3", "position": "H10"}, {"symbol": "B3", "position": "I10"}, {"symbol": "B3", "position": "A11"}, {"symbol": "B3", "position": "B11"}, {"symbol": "B3", "position": "C11"}, {"symbol": "B3", "position": "H11"}, {"symbol": "B3", "position": "I11"}]}
+--- [Step 4] ---
+> Call: send_action({"answer":{"action":"create","type":"transporter","passengers":2}})
+< Result: {"code": 10, "message": "Object created.", "object": "e4687df1571613d90fb699bfc30f05c2", "type": "transporter", "spawn": "A6", "crew": [{"id": "cfb1b22c989a9d911af576ef30dfc029", "role": "scout"}, {"id": "59e418130b3b625fa4bcc1807a6beaed", "role": "scout"}], "queue_id": "70963cb01f84393c9dc7f3155ae059db", "action_points_left": 285}
+--- [Step 5] ---
+> Call: send_action({"answer":{"action":"move","object":"e4687df1571613d90fb699bfc30f05c2","where":"F6"}})
+< Result: {"code": 20, "message": "Move queued.", "object": "e4687df1571613d90fb699bfc30f05c2", "from": "A6", "where": "F6", "queue_id": "e0c027d1fb1ee44f151d3cbc6ffaaf79", "path_steps": 6, "action_points_left": 280}
+--- [Step 6] ---
+> Call: send_action({"answer":{"action":"getObjects"}})
+< Result: {"code": 70, "message": "Objects list loaded.", "objects": [{"typ": "transporter", "position": "F6", "id": "e4687df1571613d90fb699bfc30f05c2"}]}
+--- [Step 7] ---
+> Call: send_action({"answer":{"action":"dismount","object":"e4687df1571613d90fb699bfc30f05c2","passengers":2}})
+< Result: {"code": 40, "message": "Dismount completed.", "object": "e4687df1571613d90fb699bfc30f05c2", "dismounted": ["cfb1b22c989a9d911af576ef30dfc029", "59e418130b3b625fa4bcc1807a6beaed"], "spawned": [{"scout": "cfb1b22c989a9d911af576ef30dfc029", "where": "F5"}, {"scout": "59e418130b3b625fa4bcc1807a6beaed", "where": "G6"}], "queue_id": "cdf4c978d5db2d1058c3affe31c35600", "action_points_left": 280}
+--- [Step 8] ---
+> Call: send_action({"answer":{"action":"inspect","object":"cfb1b22c989a9d911af576ef30dfc029"}})
+< Result: {"code": 30, "message": "Searching... check logs for details.", "object": "cfb1b22c989a9d911af576ef30dfc029", "entries": 1, "action_points_left": 279}
+--- [Step 9] ---
+> Call: send_action({"answer":{"action":"getLogs"}})
+< Result: {"code": 60, "message": "Inspect logs loaded.", "logs": [{"scout": "cfb1b22c989a9d911af576ef30dfc029", "msg": "Przeszukanie negatywne. Znalazłem starą apteczkę i nic poza tym.", "field": "F5"}]}
+--- [Step 10] ---
+> Call: send_action({"answer":{"action":"inspect","object":"59e418130b3b625fa4bcc1807a6beaed"}})
+< Result: {"code": 30, "message": "Searching... check logs for details.", "object": "59e418130b3b625fa4bcc1807a6beaed", "entries": 2, "action_points_left": 278}
+--- [Step 11] ---
+> Call: send_action({"answer":{"action":"getLogs"}})
+< Result: {"code": 60, "message": "Inspect logs loaded.", "logs": [{"scout": "cfb1b22c989a9d911af576ef30dfc029", "msg": "Przeszukanie negatywne. Znalazłem starą apteczkę i nic poza tym.", "field": "F5"}, {"scout": "59e418130b3b625fa4bcc1807a6beaed", "msg": "Przeszukanie nic nie dało. Znalazłem tylko kabel i pas wojskowy.", "field": "G6"}]}
+--- [Step 12] ---
+> Call: send_action({"answer":{"action":"move","object":"cfb1b22c989a9d911af576ef30dfc029","where":"F2"}})
+< Result: {"code": 20, "message": "Move queued.", "object": "cfb1b22c989a9d911af576ef30dfc029", "from": "F5", "where": "F2", "queue_id": "9a5cb4f4456417cb00b20bfadd815d0c", "path_steps": 4, "action_points_left": 257}
+--- [Step 13] ---
+> Call: send_action({"answer":{"action":"move","object":"59e418130b3b625fa4bcc1807a6beaed","where":"F2"}})
+< Result: {"code": 20, "message": "Move queued.", "object": "59e418130b3b625fa4bcc1807a6beaed", "from": "G6", "where": "F2", "queue_id": "27a2a334150016f100f906c999d3b96e", "path_steps": 6, "action_points_left": 222}
+--- [Step 14] ---
+> Call: send_action({"answer":{"action":"inspect","object":"cfb1b22c989a9d911af576ef30dfc029"}})
+< Result: {"code": 30, "message": "Searching... check logs for details.", "object": "cfb1b22c989a9d911af576ef30dfc029", "entries": 3, "action_points_left": 221}
+--- [Step 15] ---
+> Call: send_action({"answer":{"action":"getLogs"}})
+< Result: {"code": 60, "message": "Inspect logs loaded.", "logs": [{"scout": "cfb1b22c989a9d911af576ef30dfc029", "msg": "Przeszukanie negatywne. Znalazłem starą apteczkę i nic poza tym.", "field": "F5"}, {"scout": "59e418130b3b625fa4bcc1807a6beaed", "msg": "Przeszukanie nic nie dało. Znalazłem tylko kabel i pas wojskowy.", "field": "G6"}, {"scout": "cfb1b22c989a9d911af576ef30dfc029", "msg": "Osoba jest na miejscu. Mężczyzna około 30 lat, znaleziony w ciasnym schowku.", "field": "F2"}]}
+--- [Step 16] ---
+> Call: send_action({"answer":{"action":"callHelicopter","destination":"F2"}})
+< Result: {"code": 0, "message": "{FLG:WEVEGOTHIM}", "status": "ok", "destination": "F2", "found_at": "F2"}
+--- [Step 17] ---
+Agent: Misja zakończona — partyzant ewakuowany. Otrzymano FLAGĘ: FLG:WEVEGOTHIM.
